@@ -1,6 +1,6 @@
 clean = (result) ->
     title: result.description
-    fullTitle: result.suite.join( " " ) + " " + result.description
+    fullTitle: result.suite.join( " " )
     duration: result.time
     error: result.log[0] if result.log[0]?
 
