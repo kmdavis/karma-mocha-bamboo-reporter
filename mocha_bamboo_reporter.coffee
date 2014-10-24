@@ -46,8 +46,6 @@ module.exports = class BambooReporter
 
         [ failures, passes, skipped ] = trisect @_results
 
-        fs.writeFileSync "mocha.raw.json", JSON.stringify( @_results, null, 4 ), "utf-8"
-
         fs.writeFileSync "mocha.json", JSON.stringify( {
             stats: {
                 suites: getSuites( @_results ).length
