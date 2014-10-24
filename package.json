@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/kmdavis/karma-mocha-bamboo-reporter",
     "dependencies": {
-        "coffee-script": "1.8.x",
+        "coffee-script": "1.8.x"
     }
 }
